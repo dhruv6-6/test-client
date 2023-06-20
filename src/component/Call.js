@@ -7,7 +7,7 @@ let socket;
 const Call = () => {
   const [room, setRoom] = useState("");
   const [urlParam] = useSearchParams();
-  const ENDPOINT = 'http://localhost:5000';
+  const ENDPOINT = 'https://test-34qm.onrender.com';
   let localvid;
   let hisvid;
   let peerconnection;
